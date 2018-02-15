@@ -9,4 +9,5 @@ echo -e "$CERT_PEM" > cert.pem
 echo -e "$KEY_PEM"  > key.pem
 fi
 cat config.json
+echo -e "\n" 
 ./v2ray
